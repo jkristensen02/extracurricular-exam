@@ -13,7 +13,7 @@ async function initApp() {
 
 async function getProjects() {
   const response = await fetch(
-    "http://extracurricularexam.cafesite.dk/wp-json/wp/v2/projects?acf_format=standard"
+    "https://extracurricularexam.cafesite.dk/wp-json/wp/v2/projects?acf_format=standard"
   );
   const data = await response.json();
   return data;
