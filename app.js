@@ -9,7 +9,7 @@ async function initApp() {
   console.log(posts);
 }
 async function getPosts(){
-  const response = await fetch("http://zofiakubisz.magdalenapietras.dk/wp-json/wp/v2/posts?_acf_format=standard");
+  const response = await fetch("http://http://extracurricularexam.cafesite.dk/wp-json/wp/v2/posts?acf_format=standard");
   const data = await response.json();
   return data;
 }
